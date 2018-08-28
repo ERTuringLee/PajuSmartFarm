@@ -1,0 +1,145 @@
+@media (min-width: 1025px) {
+    .login_image_box {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .login_image_box:before {
+        content: "";
+        display: block;
+        padding-top: 100vh;
+    }
+    .login_text_box {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 35vw;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .login_text {
+        width: 80%;
+    }
+    .welcome_div {
+        margin-bottom: 2vw;
+    }
+    .welcome_div > h1 {
+        font-size: 4vw;
+        margin:0vw;
+        color: #414141;
+    }
+    .input_div {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .name_passwd {
+        display: block;
+        margin: 0 auto;
+        width: 92%;
+        font-size: 2vw;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 0.15vw solid #ccc;
+        margin-bottom: 1.5vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+    }
+    .name_passwd:focus {
+        outline: none;
+        border-bottom: 0.15vw solid rgb(73, 74, 41);
+    }
+    .login_button {
+        width: 90%;
+        margin-top: 2vw;
+        border: 0.3vw solid #414141;
+        font-size: 2vw;
+        font-weight: 700;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        color: #414141;
+        cursor: pointer;
+    }
+    .login_button:hover {
+        background-color: #414141;
+        color: white;
+    }
+    .login_button:focus {
+        outline: none;
+    }
+}
+@media (max-width: 1024px) {
+    .login_image_box {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .login_image_box:before {
+        content: "";
+        display: block;
+        padding-top: 40vh;
+    }
+    .login_text_box {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login_text {
+        width: 90%;
+        text-align: center;
+    }
+    .welcome_div > h1 {
+        font-size: 5vmax;
+        margin-top: 0px;
+        margin-bottom: 3vh;
+        color: #414141;
+    }
+    .input_div {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .name_passwd {
+        display: block;
+        width: 100%;
+        font-size: 4vmax;
+        margin-bottom: 1vh;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 0.3vh solid #ccc;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
+    .name_passwd:focus {
+        outline: none;
+        border-bottom:  0.3vh solid rgb(73, 74, 41);
+    }
+    .login_button {
+        margin-top: 2vh;
+        width: 70%;
+        font-weight: 700;
+        border: 0.4vh solid #414141;
+        font-size: 4vmax;
+        padding: 1vh 0;
+        cursor: pointer;
+    }
+    .login_button:hover {
+        background: #414141;
+        color: white;
+    }
+    .login_button:focus {
+        outline: none;
+    }
+}
+
+
